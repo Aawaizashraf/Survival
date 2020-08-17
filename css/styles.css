@@ -1,0 +1,268 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.col-1, .col-2, .col-4, .col-6 {
+    padding: 0px;
+}
+
+.row{
+    margin: 0px;
+}
+
+body{
+    background-color: #EDF0F2;
+    font-family: 'Teko', sans-serif; 
+}
+
+/* font-family: 'Baloo Tamma 2', cursive;
+   font-family: 'Noto Sans JP', sans-serif;
+   font-family: 'Teko', sans-serif;          */
+
+   /* Navbar Section */
+
+.navbar-container{
+    width: 100%;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0px 0px 160px;
+  }
+
+.brand-title {
+    display: inline-block;
+  }
+
+.brand-title:hover {
+    text-decoration: none;
+  }
+
+  .navbar-links {
+    height: 100%;
+}
+
+.vr{
+    border-left: 1px solid black;
+    opacity: 30%;
+    height:2rem;
+    align-items: center;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: .5rem 1rem ;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.navbar-links li:hover {
+    cursor: pointer;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+@media (max-width: 1200px) {
+    .navbar {
+        padding: 0px 0px 0px 160px;
+    }
+
+    .brand-title img{
+        height: 90%;
+        width: 90%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .brand-title img{
+        height: 80%;
+        width: 80%;
+    }
+
+    .navbar {
+        padding: 0px 0px 0px 120px;
+    }
+
+    .brand-title img{
+        height: 60%;
+        width: 60%;
+    }
+
+    .navbar-links ul li a {
+        padding: .3rem .7rem;
+        font-size: .9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .vr{
+        display: none;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    #search a{
+        padding-left: .5rem;
+    }
+
+    #search a img{
+        width: 70%;
+        height: auto;
+    }
+}
+
+/*End of Navbar Section */
+.survive-container{
+    width: 100%;
+    margin-top: 50px;
+    display: inline-flex;
+    padding: 0px 0px 0px 80px;
+}
+
+.findoutcontent{
+    display: flex;
+    justify-content: center;
+}
+
+.left-findout p{
+    display: inline-block;
+    writing-mode: vertical-rl;
+    font-size: 3.42rem;
+    transform: rotate(180deg);
+}
+
+.left-findout ul{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.left-findout ul li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.heading1 h1{
+    font-size: 11rem;
+    color: #E4003B;
+    line-height: 130px;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.heading1 p {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+}
+
+.heading1 img{
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    z-index: -1;
+    width: 20%;
+    height: auto;
+}
+
+#carousel1Controls{
+    position: relative;
+}
+
+.carouselcontrolprev {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.carouselcontrolnext {
+    position: absolute;
+    right: 0px;
+    bottom: 66px;
+}
+
+#numberingid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#numberingid h1{
+    font-size: 60px;
+}
+
+#numberingid hr{
+    border-top: #E4003B 2px solid;
+}
+
+#numberingid h6{
+    font-size: 17px;
+    display: flex;
+    justify-content: flex-end;
+}

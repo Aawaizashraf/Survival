@@ -7,15 +7,15 @@ toggleButton.addEventListener('click', () => {
 
 
 $('.skills-toggle-1').click(function(){
-  $('#mask-1, .skillname1, .Quis1, #mask-01, #cross-1, .skills-toggle-1, .keyskills1').slideToggle();
+  $('#mask-1, .skillname1, .Quis1, #mask-01, #cross-1, .skills-toggle-1, .keyskills1').slideUp();
 });
 
 $('.skills-toggle-2').click(function(){
-  $('#mask-2, .skillname2, .Quis2, #mask-02, #cross-2, .skills-toggle-2, .keyskills2').slideToggle();
+  $('#mask-2, .skillname2, .Quis2, #mask-02, #cross-2, .skills-toggle-2, .keyskills2').slideUp();
 });
 
 $('.skills-toggle-3').click(function(){
-  $('#mask-3, .skillname3, .Quis3, #mask-03, #cross-3, .skills-toggle-3, #challanges-heading, .keyskills3').slideToggle();
+  $('#mask-3, .skillname3, .Quis3, #mask-03, #cross-3, .skills-toggle-3, #challanges-heading, .keyskills3').slideUp();
 });
 
 // $('.mission-toggle').click(function(){
@@ -28,7 +28,7 @@ $('.skills-toggle-3').click(function(){
 // });
 
 $('.mission-toggle').click(function(){
-  $('.rotated-text, .mission-image, .mission-text, .mission-toggle, .mission-heading').slideUp();
+  $('.mission, .mission-toggle').slideUp();
 });
 
 /*function myFunction() {
@@ -76,3 +76,11 @@ $('.socialm-sharing-toggle').click(function(){
                     $('.tnum').html('0'+totalItems);
                 }
             });
+
+$('.mode-toggle').click(function(){
+$('.mode-text, .mode-toggle').slideUp();
+});
+
+$('.ga-toggle').click(function(){
+  $('.fvr, #ga-cross').slideToggle();
+  });

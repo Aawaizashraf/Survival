@@ -3,7 +3,7 @@
     padding: 0px;
 }
 
-.col-1, .col-2, .col-4, .col-6 {
+.col-1, .col-2, .col-4, .col-6, .col-8,.col-3, .col-9, .col-10 {
     padding: 0px;
 }
 
@@ -265,4 +265,320 @@ body{
     font-size: 17px;
     display: flex;
     justify-content: flex-end;
+}
+
+.keyskills1, .keyskills2, .keyskills3{
+    color: #E4003B;
+}
+
+#challanges {
+    margin-top: 100px;
+    padding: 0px 0px 0px 100px;
+}
+
+#mask-1, #mask-2, #mask-3 {
+    width: 80%;
+    height: 80%;
+}
+
+#mask-01, #mask-02, #mask-03 {
+    display: flex;
+    align-items: center;
+}
+
+#challanges-heading h2 {
+    font-weight: 600;
+}
+
+.Quis1, .Quis3, .Quis3 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+
+}
+
+#challanges-heading-1, #challanges-heading-2, #challanges-heading-3 {
+    margin-bottom: 30px;
+}
+
+.skills-toggle-1, .skills-toggle-2, .skills-toggle-3 {
+    display: flex;
+    align-items: center;
+}
+
+.skills-toggle-1:hover, .skills-toggle-2:hover, .skills-toggle-3:hover {
+    cursor: pointer;
+}
+
+.skills-toggle-1 h6, .skills-toggle-2 h6, .skills-toggle-3 h6 {
+    margin: 0px;
+    font-weight: 600;
+}
+
+#cross-1, #cross-2, #cross-3 {
+    width: 28px;
+    height: 28px;
+    margin-right: 50px;
+}
+
+.skills-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+.mission-heading {
+    display: flex;
+    font-size: 10rem;
+    position: relative;
+}
+
+.mission-heading h1{
+    text-transform: uppercase;
+    color: white;
+    font-size: 8rem;
+    font-weight: 600;
+}
+
+.mission-heading h4{
+    text-transform: uppercase;
+    color: #E4003B;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.rotated-text h4{
+    transform: rotate(-15deg);
+    font-family: 'Baloo Tamma 2', cursive;
+    color: #E4003B;
+    font-size:3.5rem;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+
+.rotated-text{
+    position: absolute;
+    display: flex;
+    bottom: 69px;
+}
+
+#mission-content {
+    position: relative;
+    top: -115px;
+}
+
+#mission-content img{
+    display: block;
+    width: 100%;
+    height: 80%;
+}
+
+.mission-image{
+    position: relative;
+    left: -100px;
+}
+
+.mission-text {
+    position: relative;
+    top: -100px;
+}
+
+.mission-text h3{
+    font-size:3rem;
+    font-weight:600;
+}
+
+.mission-text h4{
+    font-size:2rem;
+    font-weight:500;
+}
+
+#results-htext h2{
+display: inline-block;
+writing-mode: vertical-rl;
+font-size: 10.5rem;
+transform: rotate(180deg);
+color: white;
+text-transform: uppercase;
+line-height: 7rem;
+}
+
+#results-htext img{
+    position: relative;
+    bottom: 189px;
+    right: -114px;
+    z-index: 1;
+}
+
+.mission-text h6{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size:.8rem;
+    font-weight:400;
+}
+
+.mission-toggle {
+    display: flex;
+    align-items: flex-end;
+    margin:0px;
+    position: relative;
+    top: -200px;
+}
+
+.mission-toggle:hover {
+    cursor: pointer;
+}
+
+.mission-toggle h6{
+    margin:0px;
+    font-weight: 600;
+}
+
+#mission-cross{
+    width: 28px;
+    height: 28px;
+    margin-right: 50px
+}
+
+
+.results-section {
+    padding: 0px 0px 0px 160px;
+}
+
+#callenges-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#callenges-text h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#callenges-text h1{
+    font-size: 17rem;
+    font-weight: 600;
+    color: #E4003B;
+    line-height: 14.5rem;
+}
+
+#callenges-text h2{
+    font-size: 3.4rem;
+    font-weight: 600;
+}
+
+#callenges-text h2 span{
+    font-size: 3.75rem;
+    font-weight: 600;
+    color: #E4003B;
+}
+
+.challenges-toggle {
+    display: flex;
+    align-items: flex-end;
+    margin:0px;
+}
+.challenges-toggle:hover {
+    cursor: pointer;
+}
+
+.challenges-toggle h6{
+    margin:0px;
+    font-weight: 600;
+}
+
+#challenges-cross{
+    width: 28px;
+    height: 28px;
+    margin-right: 50px
+}
+
+
+#results-sharing img{
+    width: 70%;
+    height: auto;
+}
+
+.results-bgimg {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+
+.results-sharingonline {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 20px solid #E4003B;
+  color: white;
+  padding: 20px;
+  padding-top:150px ;
+  background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(121,9,9,0) 35%, rgba(0,0,0,0.8326681014202556) 100%);
+}
+
+.results-sharingonline h1 {
+    font-size:3rem;
+    text-transform: uppercase;
+  }
+
+.socialm-sharing-toggle {
+    display: flex;
+    align-items: flex-end;
+    margin:0px;
+}
+
+.socialm-sharing-toggle:hover {
+    cursor: pointer;
+}
+
+#socialm-sharing-toggle-id img{
+    width: 28px;
+    height: auto;
+    margin-right: 20px;
+}
+
+#socialm-sharing-toggle-id h6{
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+
+#advice-section{
+    padding: 0px 0px 0px 160px;
+}
+
+#adviceh h1{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-transform: uppercase;
+    color: #E4003B;
+    font-weight: 600;
+    font-size: 10rem;
+    margin: 0px;
+}
+
+.carousel-num {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100px;
+    height: 100px;
+    background-color: #EDF0F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-num .num {
+    border-bottom: 1px solid #E4003B;
+    font-size: 3rem;
 }

@@ -78,9 +78,9 @@ $('.socialm-sharing-toggle').click(function(){
             });
 
 $('.mode-toggle').click(function(){
-$('.mode-text, .mode-toggle').slideUp();
+  $('.mode-text, .mode-toggle').slideUp();
 });
 
 $('.ga-toggle').click(function(){
   $('.fvr, #ga-cross').slideToggle();
-  });
+});

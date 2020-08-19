@@ -273,7 +273,7 @@ body{
 
 #challanges {
     margin-top: 100px;
-    padding: 0px 0px 0px 100px;
+    padding: 0px 160px 0px 160px;
 }
 
 #mask-1, #mask-2, #mask-3 {
@@ -553,7 +553,8 @@ background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(121,9,9,0) 35%,
 
 
 #advice-section{
-    padding: 0px 0px 0px 160px;
+    margin-top: 100px;
+    padding: 0px 160px 0px 160px;
 }
 
 #adviceh h1{
@@ -670,7 +671,7 @@ background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(121,9,9,0) 35%,
 
 .fvr h5{
     font-family: 'Baloo Tamma 2', cursive;
-    font-size: 4.375rem;
+    font-size: 4rem;
     color: #E4003B;
     transform: rotate(-15deg);
 }
@@ -704,7 +705,12 @@ background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(121,9,9,0) 35%,
 
 .footer {
     width: 100%;
-    background-image: url(../images/Mask\ Group\ 5.png);
+    background-image: 
+    linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%),
+    url(../images/Mask\ Group\ 5.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
     height: auto;
 	display: block;
 }
@@ -712,15 +718,124 @@ background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(121,9,9,0) 35%,
 .inner-footer {
 	width: 95%;
 	margin: auto;
-	padding: 30px 10px;
+	/* padding: 30px 10px; */
 	display: flex;
 	flex-wrap: wrap;
 	box-sizing: border-box;
-	justify-content: center;
 }
 
-.footer-items {
-	width: 25%;
-	padding: 10px 20px;
-	box-sizing: border-box;
+.footer-item {
+    width: 25%;
+    display: inline-grid;
+    align-items: center;
+}
+
+
+.footer-item-1 {
+        width: 20%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.footer-item-1 h2 {
+	margin: 10px 0;
+	color: #E4003B;
+	font-size: 2rem;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+
+.footer-item-1 ul {
+	list-style: none;
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 0.5px;
+}
+
+.footer-item-1 ul a {
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	transition: 0.3s;
+}
+
+.footer-item-1 ul a:hover {
+	color: #ea5455;
+}
+
+.footer-item-2 {
+    width: 20%;
+padding: 10px 20px;
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+align-items: end;
+}
+
+.footer-item-2 h2 {
+	margin: 10px 0;
+	color: #E4003B;
+	font-size: 2rem;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+
+.footer-item-2 ul {
+	list-style: none;
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 0.5px;
+}
+
+.footer-item-2 ul a {
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	transition: 0.3s;
+}
+
+.footer-item-2 ul a:hover {
+	color: #ea5455;
+}
+
+.footer-item-3 {
+    width: 20%;
+padding: 10px 20px;
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+align-items: end;
+}
+
+.footer-item-3 h2 {
+	margin: 10px 0;
+	color: #E4003B;
+	font-size: 2rem;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+
+.footer-item-3 ul {
+	list-style: none;
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 0.5px;
+}
+
+.footer-item-3 ul a {
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	transition: 0.3s;
+}
+
+.footer-item-3 ul a:hover {
+	color: #ea5455;
+}
+
+.socialmedia-icons a {
+    padding: 0px 10px 0px 0px;
 }
